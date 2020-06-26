@@ -1,0 +1,28 @@
+{
+  "name": "todo-app-lit-element",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vjsrinath/todo-app-lit-element.git",
+  "author": "Srinath Janakiraman <vjsrinath@live.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev:serve": "lite-server -c lite-server.config.json",
+    "dev:watch": "rollup -w -c rollup.config.js",
+    "dev": "run-p dev:*",
+    "build": "yarn rollup -c rollup.config.js"
+  },
+  "dependencies": {
+    "@rollup/plugin-typescript": "^5.0.0",
+    "gulp": "^4.0.2",
+    "lit-element": "^2.3.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^5.0.4",
+    "@rollup/plugin-node-resolve": "^8.1.0",
+    "lite-server": "^2.5.4",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^2.18.0",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.5"
+  }
+}
